@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    animation: fadeIn 3s; 
+}
+
+/* animate on load */
+@keyframes slideUp {
+    0% {margin-bottom: 100px;}
+    100% {margin-bottom: 0px;}
+  }
+
+.partsOfTheBrain {
+    animation: slideUp 1.5s;
+}
+
+@keyframes fadeIn 
+{ 
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
