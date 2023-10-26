@@ -1,2 +1,2 @@
-# by gabe and gael
-ap psychology 2023
+# ap psychology 2023
+- gabe & gael
