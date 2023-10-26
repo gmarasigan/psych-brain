@@ -8,7 +8,7 @@ body {
     background-color: black;
     font-family: 'Playfair Display', serif;
     color: white;
-    animation: fadeIn 3s; 
+    /* animation: fadeIn 3s;  */
     animation-timing-function: ease-in-out;
 
 }
@@ -47,8 +47,8 @@ button {
     padding: 20px 20px;
     transition-duration: 0.4s;
     border-radius: 27px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 button:hover {
@@ -91,4 +91,8 @@ footer {
     justify-content: space-around;
     font-family: 'Raleway', sans-serif;
     transform: scale(1, .9);
+}
+
+img {
+    position: absolute;
 }
