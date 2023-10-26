@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html{
+    animation: slideUp 1.5s;
+}
+
 body {
     background-color: black;
     font-family: 'Playfair Display', serif;
     color: white;
     animation: fadeIn 3s; 
     animation-timing-function: ease-in-out;
+
 }
 
 /* animate on load */
@@ -12,9 +19,9 @@ body {
     100% {margin-bottom: 0px;}
   }
 
-.partsOfTheBrain {
+/* .partsOfTheBrain {
     animation: slideUp 1.5s;
-}  
+}   */
 
 @keyframes fadeIn 
 { 
@@ -27,4 +34,65 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
+
+button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin-top: 400px;
+    font-family: 'Playfair Display', serif;
+    transform: scale(1, .8);
+    background-color: lightslategray;
+    overflow: hidden;
+    padding: 20px 20px;
+    transition-duration: 0.4s;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+#copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    bottom:0;
+}
+
+.homebuttons {
+    display:inline-block;
+    text-align: center;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    overflow: hidden;
+    padding: 8px 15px;
+    transition-duration: 0.4s;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    transform: scale(1, .9);
+}
