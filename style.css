@@ -3,20 +3,28 @@ body {
     font-family: 'Playfair Display', serif;
     color: white;
     animation: fadeIn 3s; 
+    animation-timing-function: ease-in-out;
 }
 
 /* animate on load */
 @keyframes slideUp {
-    0% {margin-bottom: 100px;}
+    0% {margin-bottom: 69px;}
     100% {margin-bottom: 0px;}
   }
 
 .partsOfTheBrain {
     animation: slideUp 1.5s;
-}
+}  
 
 @keyframes fadeIn 
 { 
-    0% { opacity: 0; }
+    0% { opacity: 0; };
     100% { opacity: 1; }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
