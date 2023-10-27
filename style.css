@@ -96,3 +96,7 @@ footer {
 img {
     position: absolute;
 }
+
+area:hover {
+    cursor: pointer;
+}
