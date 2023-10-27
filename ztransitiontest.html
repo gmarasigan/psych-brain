@@ -1,0 +1,31 @@
+
+<html>
+    <div class="issue" onclick="addClass()">click me</div>
+</html>
+
+<style>
+    .issue {
+    background-color: lightblue;
+    transition: 2s linear all;
+    }
+
+    .recently-updated {
+    background-color: yellow;
+    transition: none;
+    }
+</style>
+
+<script>
+    var timeout = null;
+
+    function addClass() {
+    $('.issue').addClass('recently-updated');
+    if (timeout) {
+        clearTimeout(timeout);
+        timeout = null;
+    }
+    timeout = setTimeout(function () {
+        $('.issue').removeClass('recently-updated');
+    }, 1000);
+    }
+</script>

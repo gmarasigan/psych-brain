@@ -10,7 +10,7 @@ body {
     color: white;
     /* animation: fadeIn 3s;  */
     animation-timing-function: ease-in-out;
-
+    transition: 2s ease-in-out all;
 }
 
 /* animate on load */
