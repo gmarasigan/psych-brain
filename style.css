@@ -100,3 +100,7 @@ img {
 area:hover {
     cursor: pointer;
 }
+
+/* area {
+    border: 1px solid red;
+} */
